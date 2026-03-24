@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+<title>Certificaciones | Pablo Muñoz</title>
+
+<link rel="stylesheet" href="styles.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+
+<body>
+<canvas id="matrix"></canvas>
+
+<nav class="navbar">
+  <div class="nav-container">
+    <div class="logo fade-in">Pablo Muñoz</div>
+    <button class="menu-toggle" id="menuToggle" aria-label="Abrir menú">
+      <i class="fas fa-bars"></i>
+    </button>
+    <ul class="nav-links fade-in" id="navLinks">
+      <li><a href="index.html#inicio">Inicio</a></li>
+      <li><a href="experiencia.html">Experiencia</a></li>
+      <li><a href="certificaciones.html">Certificaciones</a></li>
+      <li><a href="proyectos.html">Proyectos</a></li>
+      <li><a href="index.html#contacto">Contacto</a></li>
+    </ul>
+  </div>
+</nav>
+
+<section class="hero page-hero">
+  <h1>Certificaciones</h1>
+  <p>Formación académica y profesional</p>
+</section>
+
+<!-- LINEA DE TIEMPO CERTIFICACIONES -->
+<section class="timeline-container">
+  <!-- Certificado 1 -->
+  <div class="timeline-item left">
+    <div class="timeline-content">
+      <h3>🔒 Ciberseguridad Nivel Básico</h3>
+      <p>Bootcamp de ciberseguridad enfocado en fundamentos de protección de sistemas, análisis de vulnerabilidades y buenas prácticas de seguridad informática.</p>
+      <button class="btn-ver-certificado">Ver certificado</button>
+      <img src="assets/SeguridadInformatica.jpg" class="cert-img" style="display:none;" alt="Certificado Ciberseguridad">
+    </div>
+  </div>
+
+  <!-- Certificado 2 -->
+  <div class="timeline-item right">
+    <div class="timeline-content">
+      <h3>👨‍🎓 Ingeniero de Sistemas</h3>
+      <p>Formación en tecnologías de la información, orientado a la eficiencia, seguridad y optimización de sistemas.</p>
+      <button class="btn-ver-certificado">Ver certificado</button>
+      <img src="assets/184830_PABLO  MUÑOZ RODRIGUEZ_2_page-0001.jpg" class="cert-img" style="display:none;" alt="Certificado Ingeniería">
+    </div>
+  </div>
+
+  <!-- Certificado 3 -->
+  <div class="timeline-item left">
+    <div class="timeline-content">
+      <h3>📊 Diplomado en Excel y Power BI</h3>
+      <p>Diplomado en Excel y Power BI enfocado en análisis de datos, generación de reportes y visualización de información mediante dashboards interactivos.</p>
+      <button class="btn-ver-certificado">Ver certificado</button>
+      <img src="assets/Excel y Power BI.jpg" class="cert-img" style="display:none;" alt="Certificado Excel y Power BI">
+    </div>
+  </div>
+
+  <!-- Certificado 4 -->
+  <div class="timeline-item right">
+    <div class="timeline-content">
+      <h3>🌐 Desarrollo Web Full Stack</h3>
+      <p>Bootcamp de desarrollo web full stack enfocado en la creación de aplicaciones completas, desde el frontend hasta el backend.</p>
+      <button class="btn-ver-certificado">Ver certificado</button>
+      <img src="assets/Desarrollo Web Full Stack.jpg" class="cert-img" style="display:none;" alt="Certificado Desarrollo Web">
+    </div>
+  </div>
+
+  <!-- Certificado 5 -->
+  <div class="timeline-item left">
+    <div class="timeline-content">
+      <h3>💻 Desarrollo de Software</h3>
+      <p>Diplomado en desarrollo de software con énfasis en desarrollo web, abarcando tecnologías como Java, Python y construcción de aplicaciones web.</p>
+      <button class="btn-ver-certificado">Ver certificado</button>
+      <img src="assets/DiplomadoDesarrolloSoftware.jpg" class="cert-img" style="display:none;" alt="Certificado Desarrollo Software">
+    </div>
+  </div>
+
+  <!-- Certificado 6 -->
+  <div class="timeline-item right">
+    <div class="timeline-content">
+      <h3>📱 Tecnólogo en Análisis y Desarrollo de Sistemas de Información</h3>
+      <p>Formación en desarrollo de sistemas de información, enfocada en el ciclo de vida del software, abarcando análisis, diseño, desarrollo, pruebas y mantenimiento de aplicaciones.</p>
+      <button class="btn-ver-certificado">Ver certificado</button>
+      <img src="assets/Tecnologo.jpg" class="cert-img" style="display:none;" alt="Certificado Tecnólogo">
+    </div>
+  </div>
+
+  <!-- Certificado 7 -->
+  <div class="timeline-item left">
+    <div class="timeline-content">
+      <h3>🛠 Técnico en Implementación y Mantenimiento de Equipos Electrónicos Industriales</h3>
+      <p>Técnico en implementación y mantenimiento de equipos electrónicos industriales, con formación en electrónica básica y de potencia, sistemas embebidos y lectura de circuitos.</p>
+      <button class="btn-ver-certificado">Ver certificado</button>
+      <img src="assets/Tecnico.jpg" class="cert-img" style="display:none;" alt="Certificado Técnico">
+    </div>
+  </div>
+</section>
+
+<div id="modal" class="modal">
+  <span id="closeModal">&times;</span>
+  <img class="modal-content" id="imgModal" alt="Certificado ampliado">
+</div>
+
+<footer class="footer fade-in">
+  <p>© 2026 Pablo Muñoz | Ingeniero de Sistemas</p>
+</footer>
+
+<button id="btnTop" aria-label="Volver arriba">↑</button>
+
+<script src="script.js"></script>
+</body>
+</html>
